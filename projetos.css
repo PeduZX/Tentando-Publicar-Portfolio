@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+nav{
+    display: inline;
+    float: right;
+    margin: 2vh;
+    margin-top: 4vh;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 10px;
+}
+body{
+    background-color: whitesmoke;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 100vw 100vh;
+}
+nav a:active{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    width: 100vw 100vh;
+}

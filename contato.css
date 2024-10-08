@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+header h1{
+    display: inline;
+    margin: 5vh;
+}
+nav{
+    display: inline;
+    float: right;
+    margin: 2vh;
+    margin-top: 4vh;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 10px;
+}
+body{
+    background-color: whitesmoke;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 100vw 100vh;
+}
+nav a:active{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    width: 100vw 100vh;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+}
+input,label,textarea{
+    border-radius: 5px;
+}
+button{
+    border-radius: 20px;
+    background: none;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 8vw;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.nome, .email{
+    display: block;
+}
+input{
+    width: 20vw;
+    height: 5vh;
+    border: 0.5px solid silver;
+    display: inline-block;
+}
+.titulo{
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.125;
+    word-break: break-word;
+    text-align: center;
+    
+}
+form{
+    margin-left: 15vw;
+}
